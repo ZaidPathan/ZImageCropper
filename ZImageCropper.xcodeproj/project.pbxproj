@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150D07BF1BF3D0DF004CA04D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150D07BE1BF3D0DF004CA04D /* AppDelegate.swift */; };
+		150D07C11BF3D0DF004CA04D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150D07C01BF3D0DF004CA04D /* ViewController.swift */; };
+		150D07C41BF3D0DF004CA04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150D07C21BF3D0DF004CA04D /* Main.storyboard */; };
+		150D07C61BF3D0DF004CA04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150D07C51BF3D0DF004CA04D /* Assets.xcassets */; };
+		150D07C91BF3D0DF004CA04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150D07C71BF3D0DF004CA04D /* LaunchScreen.storyboard */; };
+		154C096F1BF4E3360076A0F9 /* NewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154C096E1BF4E3360076A0F9 /* NewImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		150D07BB1BF3D0DF004CA04D /* ZImageCropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZImageCropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		150D07BE1BF3D0DF004CA04D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		150D07C01BF3D0DF004CA04D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		150D07C31BF3D0DF004CA04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		150D07C51BF3D0DF004CA04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150D07C81BF3D0DF004CA04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		150D07CA1BF3D0DF004CA04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154C096E1BF4E3360076A0F9 /* NewImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewImageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150D07B81BF3D0DF004CA04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150D07B21BF3D0DF004CA04D = {
+			isa = PBXGroup;
+			children = (
+				150D07BD1BF3D0DF004CA04D /* ZImageCropper */,
+				150D07BC1BF3D0DF004CA04D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150D07BC1BF3D0DF004CA04D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150D07BB1BF3D0DF004CA04D /* ZImageCropper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150D07BD1BF3D0DF004CA04D /* ZImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				150D07BE1BF3D0DF004CA04D /* AppDelegate.swift */,
+				150D07C01BF3D0DF004CA04D /* ViewController.swift */,
+				150D07C21BF3D0DF004CA04D /* Main.storyboard */,
+				154C096E1BF4E3360076A0F9 /* NewImageViewController.swift */,
+				150D07C51BF3D0DF004CA04D /* Assets.xcassets */,
+				150D07C71BF3D0DF004CA04D /* LaunchScreen.storyboard */,
+				150D07CA1BF3D0DF004CA04D /* Info.plist */,
+			);
+			path = ZImageCropper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150D07BA1BF3D0DF004CA04D /* ZImageCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150D07CD1BF3D0DF004CA04D /* Build configuration list for PBXNativeTarget "ZImageCropper" */;
+			buildPhases = (
+				150D07B71BF3D0DF004CA04D /* Sources */,
+				150D07B81BF3D0DF004CA04D /* Frameworks */,
+				150D07B91BF3D0DF004CA04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZImageCropper;
+			productName = ZImageCropper;
+			productReference = 150D07BB1BF3D0DF004CA04D /* ZImageCropper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150D07B31BF3D0DF004CA04D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Zaid Pathan";
+				TargetAttributes = {
+					150D07BA1BF3D0DF004CA04D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 150D07B61BF3D0DF004CA04D /* Build configuration list for PBXProject "ZImageCropper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150D07B21BF3D0DF004CA04D;
+			productRefGroup = 150D07BC1BF3D0DF004CA04D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150D07BA1BF3D0DF004CA04D /* ZImageCropper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150D07B91BF3D0DF004CA04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150D07C91BF3D0DF004CA04D /* LaunchScreen.storyboard in Resources */,
+				150D07C61BF3D0DF004CA04D /* Assets.xcassets in Resources */,
+				150D07C41BF3D0DF004CA04D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150D07B71BF3D0DF004CA04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150D07C11BF3D0DF004CA04D /* ViewController.swift in Sources */,
+				150D07BF1BF3D0DF004CA04D /* AppDelegate.swift in Sources */,
+				154C096F1BF4E3360076A0F9 /* NewImageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		150D07C21BF3D0DF004CA04D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150D07C31BF3D0DF004CA04D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		150D07C71BF3D0DF004CA04D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150D07C81BF3D0DF004CA04D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		150D07CB1BF3D0DF004CA04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150D07CC1BF3D0DF004CA04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150D07CE1BF3D0DF004CA04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZImageCropper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZaidPathan.ZImageCropper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		150D07CF1BF3D0DF004CA04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZImageCropper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZaidPathan.ZImageCropper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150D07B61BF3D0DF004CA04D /* Build configuration list for PBXProject "ZImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150D07CB1BF3D0DF004CA04D /* Debug */,
+				150D07CC1BF3D0DF004CA04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150D07CD1BF3D0DF004CA04D /* Build configuration list for PBXNativeTarget "ZImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150D07CE1BF3D0DF004CA04D /* Debug */,
+				150D07CF1BF3D0DF004CA04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150D07B31BF3D0DF004CA04D /* Project object */;
+}
