@@ -12,7 +12,7 @@
 		150D07C41BF3D0DF004CA04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150D07C21BF3D0DF004CA04D /* Main.storyboard */; };
 		150D07C61BF3D0DF004CA04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150D07C51BF3D0DF004CA04D /* Assets.xcassets */; };
 		150D07C91BF3D0DF004CA04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150D07C71BF3D0DF004CA04D /* LaunchScreen.storyboard */; };
-		154C096F1BF4E3360076A0F9 /* NewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154C096E1BF4E3360076A0F9 /* NewImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		154C096F1BF4E3360076A0F9 /* NewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154C096E1BF4E3360076A0F9 /* NewImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
