@@ -79,6 +79,7 @@ class ViewController: UIViewController {
     //
     
     @IBAction func IBActionCropImage(sender: UIButton) {
+        shapeLayer.fillColor = UIColor.blackColor().CGColor
         tempImageView.layer.mask = shapeLayer
     }
     
@@ -99,6 +100,7 @@ class ViewController: UIViewController {
     func addNewPathToImage(){
         shapeLayer.path = path.CGPath
         shapeLayer.strokeColor = strokeColor.CGColor
+        shapeLayer.fillColor = UIColor.clearColor().CGColor
         shapeLayer.lineWidth = lineWidth
         tempImageView.layer.addSublayer(shapeLayer)
     }
