@@ -121,4 +121,4 @@ According to given demo project do as following in your project.
 ```
 
 Feel free to ask any help!
-Twitter: @ZaidKhanIntel
+Twitter: [@ZaidKhanIntel](https://twitter.com/zaidkhanintel)
