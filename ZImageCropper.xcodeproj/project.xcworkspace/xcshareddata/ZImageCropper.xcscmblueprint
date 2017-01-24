@@ -4,13 +4,13 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "0AD0CF4CC579879FDDE65582CCF9532E9A9D1D6E" : 0,
-    "B2F1055B0C9B67FEC615B2C3DB7C93652A494808" : 0
+    "B2F1055B0C9B67FEC615B2C3DB7C93652A494808" : 0,
+    "84AEFC7EE1DBA4134E7C025D125C0F065B935F2F" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AB4ABF8F-AEAD-405E-91C8-536699DA1594",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "0AD0CF4CC579879FDDE65582CCF9532E9A9D1D6E" : "",
-    "B2F1055B0C9B67FEC615B2C3DB7C93652A494808" : "ZImageCropper\/"
+    "B2F1055B0C9B67FEC615B2C3DB7C93652A494808" : "ZImageCropper\/",
+    "84AEFC7EE1DBA4134E7C025D125C0F065B935F2F" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ZImageCropper",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,7 +19,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZaidPathan\/MotionKit",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0AD0CF4CC579879FDDE65582CCF9532E9A9D1D6E"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "84AEFC7EE1DBA4134E7C025D125C0F065B935F2F"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZaidPathan\/ZImageCropper",
