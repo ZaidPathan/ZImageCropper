@@ -1,4 +1,4 @@
-# ZImageCropper(Swift 2.2)
+# ZImageCropper(Swift 3)
 
 ZImageCropper is a simplest way to crop image to any shapes you like.
 
@@ -18,14 +18,14 @@ ZImageCropper is using following things as core part:
 According to given demo project do as following in your project.
 
 - Create IBOutlet of your image that you want to crop. (or add one UIImageView object to your class)
-```
+```swift
     //Your UIImageView object whose image will be cropped
     @IBOutlet weak var tempImageView: UIImageView!
 ```
 - Add following code after class declaration:
- ```
+```swift
     //Update this for path line color
-    let strokeColor:UIColor = UIColor.blueColor()
+    let strokeColor:UIColor = UIColor.blue
     
     //Update this for path line width
     let lineWidth:CGFloat = 2.0
@@ -41,50 +41,51 @@ According to given demo project do as following in your project.
 ```
 
 - Add UITouch even methods like this:
-```
- override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+```swift
+ override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first as UITouch?{
-            let touchPoint = touch.locationInView(self.tempImageView)
+            let touchPoint = touch.location(in: self.tempImageView)
             print("touch begin to : \(touchPoint)")
-            path.moveToPoint(touchPoint)
+            path.move(to: touchPoint)
         }
     }
     
-    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first as UITouch?{
-            let touchPoint = touch.locationInView(self.tempImageView)
+            let touchPoint = touch.location(in: self.tempImageView)
             print("touch moved to : \(touchPoint)")
-            path.addLineToPoint(touchPoint)
+            path.addLine(to: touchPoint)
             addNewPathToImage()
         }
     }
     
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first as UITouch?{
-            let touchPoint = touch.locationInView(self.tempImageView)
+            let touchPoint = touch.location(in: self.tempImageView)
             print("touch ended at : \(touchPoint)")
-            path.addLineToPoint(touchPoint)
+            path.addLine(to: touchPoint)
             addNewPathToImage()
-            path.closePath()
+            path.close()
         }
     }
     
-    override func touchesCancelled(touches: Set<UITouch>?, withEvent event: UIEvent?) {
-        if let touch = touches!.first as UITouch?{
-            let touchPoint = touch.locationInView(self.tempImageView)
+    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first as UITouch?{
+            let touchPoint = touch.location(in: self.tempImageView)
             print("touch canceled at : \(touchPoint)")
-            path.closePath()
+            path.close()
         }
     }
 ```
 - Add additional methods:
-```
+```swift
  /**
     This methods is adding CAShapeLayer line to tempImageView
     */
     func addNewPathToImage(){
-        shapeLayer.path = path.CGPath
-        shapeLayer.strokeColor = strokeColor.CGColor
+        shapeLayer.path = path.cgPath
+        shapeLayer.strokeColor = strokeColor.cgColor
+        shapeLayer.fillColor = UIColor.clear.cgColor
         shapeLayer.lineWidth = lineWidth
         tempImageView.layer.addSublayer(shapeLayer)
     }
@@ -95,23 +96,24 @@ According to given demo project do as following in your project.
     func cropImage(){
         UIGraphicsBeginImageContextWithOptions(tempImageView.bounds.size, false, 1)
         
-        tempImageView.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+        tempImageView.layer.render(in: UIGraphicsGetCurrentContext()!)
         
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         
         UIGraphicsEndImageContext()
         
-        self.croppedImage = newImage
+        self.croppedImage = newImage!
     }
 ```
 
 - Add two methods for croping and cancelling crop:
-```
-    @IBAction func IBActionCropImage(sender: UIButton) {
+```swift
+    @IBAction func IBActionCropImage(_ sender: UIButton) {
+        shapeLayer.fillColor = UIColor.black.cgColor
         tempImageView.layer.mask = shapeLayer
     }
     
-    @IBAction func IBActionCancelCrop(sender: UIButton) {
+    @IBAction func IBActionCancelCrop(_ sender: UIButton) {
         shapeLayer.removeFromSuperlayer()
         path = UIBezierPath()
         shapeLayer = CAShapeLayer()
@@ -119,4 +121,4 @@ According to given demo project do as following in your project.
 ```
 
 Feel free to ask any help!
-Twitter: @ZaidKhanIntel
+Twitter: [@ZaidKhanIntel](https://twitter.com/zaidkhanintel)
