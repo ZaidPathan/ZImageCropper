@@ -18,8 +18,9 @@ ZImageCropper is using following things as core part:
 ###Crop using AI (Or programmatically)
 Try Following steps,
 
-Step 1: Add ZImageCropper.swift file to your project.
-Step 2: Crop image using following,
+**Step 1:** Add ZImageCropper.swift file to your project.
+
+**Step 2:** Crop image using following,
 
 ```swift
 let croppedImage = ZImageCropper.cropImage(ofImageView: yourImageView, withinPoints: [
