@@ -15,6 +15,25 @@ ZImageCropper is using following things as core part:
 
 ##How to use it?
 
+###Crop using AI (Or programmatically)
+Try Following steps,
+
+Step 1: Add ZImageCropper.swift file to your project.
+Step 2: Crop image using following,
+
+```swift
+let croppedImage = ZImageCropper.cropImage(ofImageView: yourImageView, withinPoints: [
+CGPoint(x: 0, y: 0),   //Start point
+CGPoint(x: 100, y: 0),
+CGPoint(x: 100, y: 100),
+CGPoint(x: 0, y: 100)  //End point
+])
+```
+
+Note : Make sure you provide valid points, points must be >=2 in count.
+
+
+###Crop using user touches
 According to given demo project do as following in your project.
 
 - Create IBOutlet of your image that you want to crop. (or add one UIImageView object to your class)
