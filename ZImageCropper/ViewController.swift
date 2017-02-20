@@ -83,6 +83,15 @@ class ViewController: UIViewController {
         tempImageView.layer.mask = shapeLayer
     }
     
+    @IBAction func IBActionAI(_ sender: Any) {
+        let croppedImage = ZImageCropper.cropImage(ofImageView: tempImageView, withinPoints: [
+            CGPoint(x: 0, y: 0),
+            CGPoint(x: 100, y: 0),
+            CGPoint(x: 100, y: 100),
+            CGPoint(x: 0, y: 100)
+            ])
+    }
+    
     @IBAction func IBActionCancelCrop(_ sender: UIButton) {
         shapeLayer.removeFromSuperlayer()
         path = UIBezierPath()

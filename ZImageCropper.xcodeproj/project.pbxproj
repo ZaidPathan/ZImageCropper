@@ -13,6 +13,7 @@
 		150D07C61BF3D0DF004CA04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150D07C51BF3D0DF004CA04D /* Assets.xcassets */; };
 		150D07C91BF3D0DF004CA04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150D07C71BF3D0DF004CA04D /* LaunchScreen.storyboard */; };
 		154C096F1BF4E3360076A0F9 /* NewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154C096E1BF4E3360076A0F9 /* NewImageViewController.swift */; };
+		FC2610EA1E5AD76E00A6C57F /* ZImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2610E91E5AD76E00A6C57F /* ZImageCropper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		150D07C81BF3D0DF004CA04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		150D07CA1BF3D0DF004CA04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		154C096E1BF4E3360076A0F9 /* NewImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewImageViewController.swift; sourceTree = "<group>"; };
+		FC2610E91E5AD76E00A6C57F /* ZImageCropper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZImageCropper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				150D07C51BF3D0DF004CA04D /* Assets.xcassets */,
 				150D07C71BF3D0DF004CA04D /* LaunchScreen.storyboard */,
 				150D07CA1BF3D0DF004CA04D /* Info.plist */,
+				FC2610E91E5AD76E00A6C57F /* ZImageCropper.swift */,
 			);
 			path = ZImageCropper;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				150D07C11BF3D0DF004CA04D /* ViewController.swift in Sources */,
 				150D07BF1BF3D0DF004CA04D /* AppDelegate.swift in Sources */,
+				FC2610EA1E5AD76E00A6C57F /* ZImageCropper.swift in Sources */,
 				154C096F1BF4E3360076A0F9 /* NewImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

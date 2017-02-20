@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Njk-dg-kKR">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Njk-dg-kKR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,23 +17,23 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="j4Y-wn-ya2">
-                                <rect key="frame" x="8" y="64" width="584" height="486"/>
+                                <rect key="frame" x="8" y="64" width="359" height="553"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imageby : ilikewallpaper.net" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRL-MN-38b">
-                                <rect key="frame" x="382" y="72" width="210" height="21"/>
+                                <rect key="frame" x="157" y="72" width="210" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXp-vS-dFA">
-                                <rect key="frame" x="8" y="558" width="189" height="34"/>
-                                <color key="backgroundColor" red="1" green="0.1402598202" blue="0.083914573009999993" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="8" y="625" width="114.5" height="34"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.23137254900000001" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Crop Image">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -44,10 +48,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAm-rb-uHO">
-                                <rect key="frame" x="205" y="558" width="190" height="34"/>
-                                <color key="backgroundColor" red="0.090196078430000007" green="0.36862745099999999" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="130.5" y="625" width="114" height="34"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.23137254900000001" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Cancel Crop">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -62,10 +66,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNr-mY-7jF">
-                                <rect key="frame" x="403" y="558" width="189" height="34"/>
-                                <color key="backgroundColor" red="0.090196078430000007" green="0.36862745099999999" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="252.5" y="625" width="114.5" height="34"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.23137254900000001" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Cropped Image">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -79,8 +83,26 @@
                                     <segue destination="YNg-52-Ehg" kind="show" id="4UW-Bd-bX6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQK-Ba-GfM">
+                                <rect key="frame" x="20" y="575" width="335" height="30"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.23137254900000001" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Crop Using AI ">
+                                    <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="IBActionAI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tII-VS-WAe"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mNr-mY-7jF" secondAttribute="bottom" constant="8" id="1ZM-Zs-DM9"/>
                             <constraint firstAttribute="trailing" secondItem="mNr-mY-7jF" secondAttribute="trailing" constant="8" id="37p-NC-sLI"/>
@@ -92,8 +114,11 @@
                             <constraint firstItem="PRL-MN-38b" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Irw-Iw-7fI"/>
                             <constraint firstItem="mNr-mY-7jF" firstAttribute="width" secondItem="YXp-vS-dFA" secondAttribute="width" id="MtI-fl-wgS"/>
                             <constraint firstAttribute="trailing" secondItem="j4Y-wn-ya2" secondAttribute="trailing" constant="8" id="OL5-dm-Ipi"/>
+                            <constraint firstAttribute="trailing" secondItem="fQK-Ba-GfM" secondAttribute="trailing" constant="20" id="Z04-BF-BwM"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LAm-rb-uHO" secondAttribute="bottom" constant="8" id="baY-XK-7ba"/>
+                            <constraint firstItem="fQK-Ba-GfM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="fSg-as-PBb"/>
                             <constraint firstItem="mNr-mY-7jF" firstAttribute="top" secondItem="j4Y-wn-ya2" secondAttribute="bottom" constant="8" id="ihq-fm-txL"/>
+                            <constraint firstItem="LAm-rb-uHO" firstAttribute="top" secondItem="fQK-Ba-GfM" secondAttribute="bottom" constant="20" id="the-Cv-DDo"/>
                             <constraint firstItem="mNr-mY-7jF" firstAttribute="leading" secondItem="LAm-rb-uHO" secondAttribute="trailing" constant="8" id="toM-Rk-OBb"/>
                             <constraint firstItem="YXp-vS-dFA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="vTX-ou-0Um"/>
                             <constraint firstItem="j4Y-wn-ya2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="wTr-3d-xoM"/>
@@ -120,20 +145,20 @@
                         <viewControllerLayoutGuide type="bottom" id="1jM-BE-NgO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9bP-Ob-2VM">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1eu-2f-rOu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1eu-2f-rOu">
                                 <rect key="frame" x="0.0" y="94" width="600" height="506"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is cropped image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVn-88-4V7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is cropped image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVn-88-4V7">
                                 <rect key="frame" x="216" y="64" width="169" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.1402598202" blue="0.083914573009999993" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.1402598202" blue="0.083914573009999993" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1eu-2f-rOu" firstAttribute="top" secondItem="Y98-hb-70h" secondAttribute="bottom" constant="30" id="5Uh-Hh-ofP"/>
                             <constraint firstItem="qVn-88-4V7" firstAttribute="top" secondItem="Y98-hb-70h" secondAttribute="bottom" id="C61-ZL-IMH"/>
