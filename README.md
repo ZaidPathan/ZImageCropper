@@ -4,7 +4,7 @@ ZImageCropper is a simplest way to crop image to any shapes you like.
 
 ![alt ZImageCropper](https://github.com/ZaidPathan/ZImageCropper/blob/master/giphy.gif)
 
-##Behind the scene
+## Behind the scene
 
 ZImageCropper is using following things as core part:
 
@@ -13,9 +13,9 @@ ZImageCropper is using following things as core part:
 - CAShapeLayer
 - CoreGraphics
 
-##How to use it?
+## How to use it?
 
-###Crop using AI (Or programmatically)
+### Crop using AI (Or programmatically)
 Try Following steps,
 
 **Step 1:** Add ZImageCropper.swift file to your project.
@@ -34,7 +34,7 @@ CGPoint(x: 0, y: 100)  //End point
 Note : Make sure you provide valid points, points must be >=2 in count.
 
 
-###Crop using user touches
+### Crop using user touches
 According to given demo project do as following in your project.
 
 - Create IBOutlet of your image that you want to crop. (or add one UIImageView object to your class)
