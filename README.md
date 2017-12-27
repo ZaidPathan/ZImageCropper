@@ -1,4 +1,4 @@
-# ZImageCropper(Swift 3)
+# ZImageCropper(Swift 4)
 
 ZImageCropper is a simplest way to crop image to any shapes you like.
 
