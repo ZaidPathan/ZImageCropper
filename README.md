@@ -140,5 +140,4 @@ According to given demo project do as following in your project.
     }
 ```
 
-Feel free to ask any help!
-Twitter: [@ZaidKhanIntel](https://twitter.com/zaidkhanintel)
+Feel free to ask for any help!
