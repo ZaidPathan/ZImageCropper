@@ -12,7 +12,7 @@ import CoreGraphics
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var imageView: ZImageView!
+    @IBOutlet weak var imageView: ZImageCropperView!
     var croppedImage: UIImage?
     
     override func viewDidLoad() {
