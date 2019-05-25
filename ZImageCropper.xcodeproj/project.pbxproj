@@ -58,6 +58,7 @@
 		150D07BD1BF3D0DF004CA04D /* ZImageCropper */ = {
 			isa = PBXGroup;
 			children = (
+				15CEE4AA229947A900C7C53A /* src */,
 				150D07BE1BF3D0DF004CA04D /* AppDelegate.swift */,
 				150D07C01BF3D0DF004CA04D /* ViewController.swift */,
 				150D07C21BF3D0DF004CA04D /* Main.storyboard */,
@@ -65,9 +66,16 @@
 				150D07C51BF3D0DF004CA04D /* Assets.xcassets */,
 				150D07C71BF3D0DF004CA04D /* LaunchScreen.storyboard */,
 				150D07CA1BF3D0DF004CA04D /* Info.plist */,
-				FC2610E91E5AD76E00A6C57F /* ZImageCropper.swift */,
 			);
 			path = ZImageCropper;
+			sourceTree = "<group>";
+		};
+		15CEE4AA229947A900C7C53A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FC2610E91E5AD76E00A6C57F /* ZImageCropper.swift */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

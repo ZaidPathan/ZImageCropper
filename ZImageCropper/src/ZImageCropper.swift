@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
 
-public class ZImageCropper{
-    public class func cropImage(ofImageView:UIImageView, withinPoints points:[CGPoint])->UIImage?{
+public class ZImageCropper {
+    public class func cropImage(ofImageView:UIImageView, withinPoints points:[CGPoint]) -> UIImage? {
         
         //Check if there is start and end points exists
-        if points.count >= 2{
+        if points.count >= 2 {
             let path = UIBezierPath()
             let shapeLayer = CAShapeLayer()
             shapeLayer.fillColor = UIColor.clear.cgColor
@@ -26,7 +26,7 @@ public class ZImageCropper{
                 if index == 0{
                     path.move(to: point)
                     
-                    //Endpoint
+                //Endpoint
                 }else if index == points.count-1{
                     path.addLine(to: point)
                     path.close()
@@ -41,9 +41,8 @@ public class ZImageCropper{
                         ofImageView.layer.render(in: currentContext)
                     }
                     
-                    
                     let newImage = UIGraphicsGetImageFromCurrentImageContext()
-                    
+
                     UIGraphicsEndImageContext()
                     
                     croppedImage = newImage
@@ -55,7 +54,7 @@ public class ZImageCropper{
             }
             
             return croppedImage
-        }else{
+        } else {
             return nil
         }
     }
