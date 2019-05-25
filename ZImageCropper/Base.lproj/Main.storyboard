@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Njk-dg-kKR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Njk-dg-kKR">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,18 +21,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="j4Y-wn-ya2">
-                                <rect key="frame" x="8" y="64" width="359" height="553"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imageby : ilikewallpaper.net" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRL-MN-38b">
-                                <rect key="frame" x="157" y="72" width="210" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXp-vS-dFA">
-                                <rect key="frame" x="8" y="625" width="114.5" height="34"/>
+                                <rect key="frame" x="8" y="629" width="114.5" height="30"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.23137254900000001" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="DPf-6r-VAz"/>
+                                </constraints>
                                 <state key="normal" title="Crop Image">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -48,7 +43,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAm-rb-uHO">
-                                <rect key="frame" x="130.5" y="625" width="114" height="34"/>
+                                <rect key="frame" x="130.5" y="629" width="114" height="30"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.23137254900000001" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Cancel Crop">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -66,7 +61,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNr-mY-7jF">
-                                <rect key="frame" x="252.5" y="625" width="114.5" height="34"/>
+                                <rect key="frame" x="252.5" y="629" width="114.5" height="30"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.23137254900000001" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Cropped Image">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -84,8 +79,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQK-Ba-GfM">
-                                <rect key="frame" x="20" y="575" width="335" height="30"/>
+                                <rect key="frame" x="20" y="579" width="335" height="30"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.23137254900000001" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BEy-o6-ecD"/>
+                                </constraints>
                                 <state key="normal" title="Crop Using AI ">
                                     <color key="titleColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </state>
@@ -101,40 +99,48 @@
                                     <action selector="IBActionAI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tII-VS-WAe"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="RfO-W1-QFO" customClass="ZImageView" customModule="ZImageCropper" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="505"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imageby : ilikewallpaper.net" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRL-MN-38b">
+                                <rect key="frame" x="157" y="72" width="210" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mNr-mY-7jF" secondAttribute="bottom" constant="8" id="1ZM-Zs-DM9"/>
                             <constraint firstAttribute="trailing" secondItem="mNr-mY-7jF" secondAttribute="trailing" constant="8" id="37p-NC-sLI"/>
-                            <constraint firstItem="YXp-vS-dFA" firstAttribute="top" secondItem="j4Y-wn-ya2" secondAttribute="bottom" constant="8" id="39T-Bm-b0M"/>
                             <constraint firstItem="LAm-rb-uHO" firstAttribute="leading" secondItem="YXp-vS-dFA" secondAttribute="trailing" constant="8" id="4ud-q3-8ug"/>
+                            <constraint firstItem="RfO-W1-QFO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7yO-Nb-9EN"/>
+                            <constraint firstItem="YXp-vS-dFA" firstAttribute="height" secondItem="LAm-rb-uHO" secondAttribute="height" id="B4K-S9-kXE"/>
+                            <constraint firstAttribute="trailing" secondItem="RfO-W1-QFO" secondAttribute="trailing" id="Bde-RN-fns"/>
                             <constraint firstItem="LAm-rb-uHO" firstAttribute="width" secondItem="YXp-vS-dFA" secondAttribute="width" id="DgI-Yj-yh7"/>
                             <constraint firstAttribute="trailing" secondItem="PRL-MN-38b" secondAttribute="trailing" constant="8" id="Dml-fD-qPI"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="j4Y-wn-ya2" secondAttribute="bottom" constant="50" id="Igz-i4-vHu"/>
+                            <constraint firstItem="fQK-Ba-GfM" firstAttribute="top" secondItem="RfO-W1-QFO" secondAttribute="bottom" constant="10" id="Fwv-OZ-3nJ"/>
                             <constraint firstItem="PRL-MN-38b" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Irw-Iw-7fI"/>
                             <constraint firstItem="mNr-mY-7jF" firstAttribute="width" secondItem="YXp-vS-dFA" secondAttribute="width" id="MtI-fl-wgS"/>
-                            <constraint firstAttribute="trailing" secondItem="j4Y-wn-ya2" secondAttribute="trailing" constant="8" id="OL5-dm-Ipi"/>
                             <constraint firstAttribute="trailing" secondItem="fQK-Ba-GfM" secondAttribute="trailing" constant="20" id="Z04-BF-BwM"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LAm-rb-uHO" secondAttribute="bottom" constant="8" id="baY-XK-7ba"/>
+                            <constraint firstItem="RfO-W1-QFO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="buV-nC-sLf"/>
                             <constraint firstItem="fQK-Ba-GfM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="fSg-as-PBb"/>
-                            <constraint firstItem="mNr-mY-7jF" firstAttribute="top" secondItem="j4Y-wn-ya2" secondAttribute="bottom" constant="8" id="ihq-fm-txL"/>
+                            <constraint firstItem="mNr-mY-7jF" firstAttribute="height" secondItem="LAm-rb-uHO" secondAttribute="height" id="mQr-Ty-BYI"/>
                             <constraint firstItem="LAm-rb-uHO" firstAttribute="top" secondItem="fQK-Ba-GfM" secondAttribute="bottom" constant="20" id="the-Cv-DDo"/>
                             <constraint firstItem="mNr-mY-7jF" firstAttribute="leading" secondItem="LAm-rb-uHO" secondAttribute="trailing" constant="8" id="toM-Rk-OBb"/>
                             <constraint firstItem="YXp-vS-dFA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="vTX-ou-0Um"/>
-                            <constraint firstItem="j4Y-wn-ya2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="wTr-3d-xoM"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YXp-vS-dFA" secondAttribute="bottom" constant="8" id="xFQ-YG-mhl"/>
-                            <constraint firstItem="LAm-rb-uHO" firstAttribute="top" secondItem="j4Y-wn-ya2" secondAttribute="bottom" constant="8" id="xK4-iY-9Jh"/>
-                            <constraint firstItem="j4Y-wn-ya2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="yno-N7-IUJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="agx-J0-orI"/>
                     <connections>
-                        <outlet property="tempImageView" destination="j4Y-wn-ya2" id="cCG-LM-Jny"/>
+                        <outlet property="imageView" destination="RfO-W1-QFO" id="w8f-mC-vR8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1112" y="344"/>
+            <point key="canvasLocation" x="1111.2" y="343.17841079460271"/>
         </scene>
         <!--New Image View Controller-->
         <scene sceneID="daD-WN-F8I">
@@ -148,8 +154,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1eu-2f-rOu">
-                                <rect key="frame" x="0.0" y="94" width="600" height="506"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1eu-2f-rOu">
+                                <rect key="frame" x="0.0" y="94" width="375" height="573"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is cropped image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVn-88-4V7">
                                 <rect key="frame" x="216" y="64" width="169" height="21"/>
@@ -179,10 +185,10 @@
         <!--Navigation Controller-->
         <scene sceneID="1wW-JM-Ykk">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Njk-dg-kKR" sceneMemberID="viewController">
+                <navigationController id="Njk-dg-kKR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sgc-Xk-shh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -196,6 +202,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="car" width="1080" height="1920"/>
+        <image name="car" width="259.20001220703125" height="460.79998779296875"/>
     </resources>
 </document>

@@ -20,14 +20,14 @@ public class ZImageCropper {
             shapeLayer.lineWidth = 2
             var croppedImage:UIImage?
             
-            for (index,point) in points.enumerated(){
+            for (index,point) in points.enumerated() {
                 
                 //Origin
-                if index == 0{
+                if index == 0 {
                     path.move(to: point)
                     
                 //Endpoint
-                }else if index == points.count-1{
+                } else if index == points.count-1 {
                     path.addLine(to: point)
                     path.close()
                     shapeLayer.path = path.cgPath
@@ -37,7 +37,7 @@ public class ZImageCropper {
                     ofImageView.layer.mask = shapeLayer
                     UIGraphicsBeginImageContextWithOptions(ofImageView.frame.size, false, 1)
                     
-                    if let currentContext = UIGraphicsGetCurrentContext(){
+                    if let currentContext = UIGraphicsGetCurrentContext() {
                         ofImageView.layer.render(in: currentContext)
                     }
                     
@@ -48,7 +48,7 @@ public class ZImageCropper {
                     croppedImage = newImage
                     
                     //Move points
-                }else{
+                } else {
                     path.addLine(to: point)
                 }
             }

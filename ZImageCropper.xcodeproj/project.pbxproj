@@ -13,6 +13,7 @@
 		150D07C61BF3D0DF004CA04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150D07C51BF3D0DF004CA04D /* Assets.xcassets */; };
 		150D07C91BF3D0DF004CA04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150D07C71BF3D0DF004CA04D /* LaunchScreen.storyboard */; };
 		154C096F1BF4E3360076A0F9 /* NewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154C096E1BF4E3360076A0F9 /* NewImageViewController.swift */; };
+		15CEE4AC229948CE00C7C53A /* ZImageCropperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEE4AB229948CE00C7C53A /* ZImageCropperView.swift */; };
 		FC2610EA1E5AD76E00A6C57F /* ZImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2610E91E5AD76E00A6C57F /* ZImageCropper.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		150D07C81BF3D0DF004CA04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		150D07CA1BF3D0DF004CA04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		154C096E1BF4E3360076A0F9 /* NewImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewImageViewController.swift; sourceTree = "<group>"; };
+		15CEE4AB229948CE00C7C53A /* ZImageCropperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZImageCropperView.swift; sourceTree = "<group>"; };
 		FC2610E91E5AD76E00A6C57F /* ZImageCropper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZImageCropper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				FC2610E91E5AD76E00A6C57F /* ZImageCropper.swift */,
+				15CEE4AB229948CE00C7C53A /* ZImageCropperView.swift */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				150D07C11BF3D0DF004CA04D /* ViewController.swift in Sources */,
 				150D07BF1BF3D0DF004CA04D /* AppDelegate.swift in Sources */,
 				FC2610EA1E5AD76E00A6C57F /* ZImageCropper.swift in Sources */,
+				15CEE4AC229948CE00C7C53A /* ZImageCropperView.swift in Sources */,
 				154C096F1BF4E3360076A0F9 /* NewImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
