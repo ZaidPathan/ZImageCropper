@@ -27,6 +27,7 @@
 		150D07CA1BF3D0DF004CA04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		154C096E1BF4E3360076A0F9 /* NewImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewImageViewController.swift; sourceTree = "<group>"; };
 		15CEE4AB229948CE00C7C53A /* ZImageCropperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZImageCropperView.swift; sourceTree = "<group>"; };
+		15CEE4AD22995D4800C7C53A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FC2610E91E5AD76E00A6C57F /* ZImageCropper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZImageCropper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +45,7 @@
 		150D07B21BF3D0DF004CA04D = {
 			isa = PBXGroup;
 			children = (
+				15CEE4AD22995D4800C7C53A /* README.md */,
 				150D07BD1BF3D0DF004CA04D /* ZImageCropper */,
 				150D07BC1BF3D0DF004CA04D /* Products */,
 			);

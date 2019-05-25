@@ -99,7 +99,7 @@
                                     <action selector="IBActionAI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tII-VS-WAe"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="RfO-W1-QFO" customClass="ZImageView" customModule="ZImageCropper" customModuleProvider="target">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="RfO-W1-QFO" customClass="ZImageCropperView" customModule="ZImageCropper" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="375" height="505"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imageby : ilikewallpaper.net" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRL-MN-38b">
