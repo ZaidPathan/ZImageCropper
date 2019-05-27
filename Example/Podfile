@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZImageCropper_Example' do
+  pod 'ZImageCropper', :path => '../'
+
+  target 'ZImageCropper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

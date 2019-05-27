@@ -1,0 +1,16 @@
+PODS:
+  - ZImageCropper (0.1.0)
+
+DEPENDENCIES:
+  - ZImageCropper (from `../`)
+
+EXTERNAL SOURCES:
+  ZImageCropper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZImageCropper: 33309618edbf94126d5de3f9a298b925da77f643
+
+PODFILE CHECKSUM: 50a7016449e8a8c080eb607313e20c2238142490
+
+COCOAPODS: 1.6.1

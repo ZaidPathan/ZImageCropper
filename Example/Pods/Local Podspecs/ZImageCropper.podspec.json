@@ -1,0 +1,22 @@
+{
+  "name": "ZImageCropper",
+  "version": "0.1.0",
+  "summary": "A short description of ZImageCropper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zaidSA/ZImageCropper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zaidSA": "devansh.vyas@solutionanalysts.com"
+  },
+  "source": {
+    "git": "https://github.com/zaidSA/ZImageCropper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZImageCropper/Classes/**/*"
+}
