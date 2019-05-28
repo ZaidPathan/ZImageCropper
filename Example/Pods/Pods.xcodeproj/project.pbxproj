@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		03A02C38032897BCA3C018AFCE7A4C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		29789A172A02B412F79CDDD200DFA77E /* ZImageCropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 174BE528A3A144711D6A7BF3CD8A6445 /* ZImageCropper-dummy.m */; };
 		54F511B77856B700EE27DD4FB9DD48DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		61B120431259981145E17DE41BB08474 /* Pods-ZImageCropper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A5BDD39454DE005D589E5B358C9FFC /* Pods-ZImageCropper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68BEF85E50FF883DAF0E84DED1560F21 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F358531D51CB4748187F3CF5A395CD /* ReplaceMe.swift */; };
-		7C5DCDF6C37E456B7F4129927823D6BB /* ZImageCropper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 081D65E712F702A4DD1A25354FCFDC0D /* ZImageCropper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C5DCDF6C37E456B7F4129927823D6BB /* ZImageCropper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F9005CB67C18AE09D00BC4243EC2D1 /* ZImageCropper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85755764AF28F0E03DA622EDFA428A98 /* ZImageCropperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B937A940B7AEF8153AA426C79788E /* ZImageCropperView.swift */; };
 		A17250C37925E22F326033FD1D41EC6A /* Pods-ZImageCropper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3780C14E8C3B1E71D522509BBC26B64E /* Pods-ZImageCropper_Tests-dummy.m */; };
+		AE93FCD34C01B65EA15753AF264240AA /* ZImageCropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE957C01B03773324E01AA8511E889E8 /* ZImageCropper-dummy.m */; };
 		E4A62686310BBD1687E4ADEBB3DF50DC /* Pods-ZImageCropper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0645CE46D9E08678FDF3331425DF550 /* Pods-ZImageCropper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBBD7C84F664AA4297DAC587A7C3BBBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EE0A9F9726E49ACD8E20D35565131C9E /* ZImageCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD3D97D87B82B034C3D4D6DA0E8B86 /* ZImageCropper.swift */; };
 		F32B852DE48599E32E408CBCF93D1A97 /* Pods-ZImageCropper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF5E68046C8AD12783ABCF0705529F0 /* Pods-ZImageCropper_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,35 +38,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		081D65E712F702A4DD1A25354FCFDC0D /* ZImageCropper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZImageCropper-umbrella.h"; sourceTree = "<group>"; };
 		0B7C17E12653F9CCCD95685C67A006C8 /* Pods-ZImageCropper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZImageCropper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0DBD389E2016DA627EC9906B519A8199 /* Pods-ZImageCropper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZImageCropper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1039E1B051335B75AA4BB6DDE5E29C0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		10560F399721A46ECBAF4E6C9F6A1C16 /* ZImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZImageCropper.framework; path = ZImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1398FE6BDF7030AEAEA6452EDB6FB0DB /* ZImageCropper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZImageCropper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		174BE528A3A144711D6A7BF3CD8A6445 /* ZImageCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZImageCropper-dummy.m"; sourceTree = "<group>"; };
 		1BCA6CE1BBF6797531365D16DE5D7CF0 /* Pods-ZImageCropper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZImageCropper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3780C14E8C3B1E71D522509BBC26B64E /* Pods-ZImageCropper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZImageCropper_Tests-dummy.m"; sourceTree = "<group>"; };
-		39F358531D51CB4748187F3CF5A395CD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZImageCropper/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		39F9005CB67C18AE09D00BC4243EC2D1 /* ZImageCropper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZImageCropper-umbrella.h"; sourceTree = "<group>"; };
 		43118426E24AABFF481D6DEA68834D33 /* Pods_ZImageCropper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZImageCropper_Tests.framework; path = "Pods-ZImageCropper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BFB590B805EF025781E30B65AAC1ACF /* ZImageCropper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZImageCropper-Info.plist"; sourceTree = "<group>"; };
+		5B7FD8FFB473AADB2EAC4CE9525D87FA /* ZImageCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZImageCropper-prefix.pch"; sourceTree = "<group>"; };
 		5EAB27BC8950A32E165711B180B8186E /* Pods-ZImageCropper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZImageCropper_Tests.modulemap"; sourceTree = "<group>"; };
 		6711262AF4713EB1DA1411CF40C26B70 /* Pods-ZImageCropper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZImageCropper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6733037107B9BE4EB839EF70B1FAC435 /* Pods-ZImageCropper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZImageCropper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6DD72077623E2E80D80CE4372C2F82B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		73CDB159036B24A084E0EE0DBD3D069E /* ZImageCropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZImageCropper.xcconfig; sourceTree = "<group>"; };
-		7D09423F37710292DE80713F7AE2F4AE /* ZImageCropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZImageCropper.modulemap; sourceTree = "<group>"; };
+		786A52BD8EC8B4CEB006217C99A36535 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7CCD3D97D87B82B034C3D4D6DA0E8B86 /* ZImageCropper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZImageCropper.swift; path = ZImageCropper/Classes/ZImageCropper.swift; sourceTree = "<group>"; };
+		7F3D0C3C5283CD8B934EC8292023861D /* ZImageCropper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZImageCropper-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7A5BDD39454DE005D589E5B358C9FFC /* Pods-ZImageCropper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZImageCropper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B0645CE46D9E08678FDF3331425DF550 /* Pods-ZImageCropper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZImageCropper_Example-umbrella.h"; sourceTree = "<group>"; };
-		B270A1F2F8109949756D6C2813F86881 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B41B937A940B7AEF8153AA426C79788E /* ZImageCropperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZImageCropperView.swift; path = ZImageCropper/Classes/ZImageCropperView.swift; sourceTree = "<group>"; };
 		C69FAFACC32BBF074279DA0BE4929BBE /* Pods-ZImageCropper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZImageCropper_Example.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CBC26FDDA457F3E64ABA172D55E2BB5F /* Pods-ZImageCropper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZImageCropper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC3A0DA0077B08AF39B0C2F017A9CC52 /* ZImageCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZImageCropper-prefix.pch"; sourceTree = "<group>"; };
 		D9E8F11D54887A3B5B66502AD5B14F13 /* Pods-ZImageCropper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZImageCropper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DDF5E68046C8AD12783ABCF0705529F0 /* Pods-ZImageCropper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZImageCropper_Example-dummy.m"; sourceTree = "<group>"; };
+		DE18C917ED364CB9D352D2698191B1B4 /* ZImageCropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZImageCropper.modulemap; sourceTree = "<group>"; };
+		E7368BAF57A5DACFE030CC3F78C274EE /* ZImageCropper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZImageCropper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE957C01B03773324E01AA8511E889E8 /* ZImageCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZImageCropper-dummy.m"; sourceTree = "<group>"; };
 		EF4519198F8FE99593ADE74A69477A24 /* Pods_ZImageCropper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZImageCropper_Example.framework; path = "Pods-ZImageCropper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B439A0E2FEE407019FA299DF71DC03 /* Pods-ZImageCropper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZImageCropper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7397EB21C3DD2E7578325A8A5C41C26 /* ZImageCropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZImageCropper.xcconfig; sourceTree = "<group>"; };
 		F8974A5FC9E6BD2F691DB6609F6D944A /* Pods-ZImageCropper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZImageCropper_Example-Info.plist"; sourceTree = "<group>"; };
 		F9FA566870A69AC6F9FA3965841523C2 /* Pods-ZImageCropper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZImageCropper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FB2A0395586B362EFF7FAEE1DA7CE9A3 /* Pods-ZImageCropper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZImageCropper_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -115,14 +117,6 @@
 			path = "Target Support Files/Pods-ZImageCropper_Tests";
 			sourceTree = "<group>";
 		};
-		4BD7454307A3480C727FBA96BF69CEEF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				744B7DB8CACE1B4ED465407DB1DF3491 /* ZImageCropper */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		582F36BD31B8F4DC83C6334DFE662D65 /* Pods-ZImageCropper_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,12 +134,21 @@
 			path = "Target Support Files/Pods-ZImageCropper_Example";
 			sourceTree = "<group>";
 		};
-		744B7DB8CACE1B4ED465407DB1DF3491 /* ZImageCropper */ = {
+		7FCEFF83D6731F9BAC9887CCE42C3253 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				39F358531D51CB4748187F3CF5A395CD /* ReplaceMe.swift */,
-				BD21BC2135C019BD6DC9855065D7D94D /* Pod */,
-				A1FF8A4E7E4B0FABF95C7717E303C4F4 /* Support Files */,
+				82EE2B5D6EB0B738A8F5B6F521BE87D5 /* ZImageCropper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		82EE2B5D6EB0B738A8F5B6F521BE87D5 /* ZImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				7CCD3D97D87B82B034C3D4D6DA0E8B86 /* ZImageCropper.swift */,
+				B41B937A940B7AEF8153AA426C79788E /* ZImageCropperView.swift */,
+				CF8E6D19880ADC98758BD11329C458F0 /* Pod */,
+				FA3E760F0DCABEBAE194103474E498D4 /* Support Files */,
 			);
 			name = ZImageCropper;
 			path = ../..;
@@ -169,20 +172,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A1FF8A4E7E4B0FABF95C7717E303C4F4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7D09423F37710292DE80713F7AE2F4AE /* ZImageCropper.modulemap */,
-				73CDB159036B24A084E0EE0DBD3D069E /* ZImageCropper.xcconfig */,
-				174BE528A3A144711D6A7BF3CD8A6445 /* ZImageCropper-dummy.m */,
-				5BFB590B805EF025781E30B65AAC1ACF /* ZImageCropper-Info.plist */,
-				CC3A0DA0077B08AF39B0C2F017A9CC52 /* ZImageCropper-prefix.pch */,
-				081D65E712F702A4DD1A25354FCFDC0D /* ZImageCropper-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZImageCropper";
-			sourceTree = "<group>";
-		};
 		B85053824568E3AF5344AA18D1114DB1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,25 +181,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BD21BC2135C019BD6DC9855065D7D94D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6DD72077623E2E80D80CE4372C2F82B3 /* LICENSE */,
-				B270A1F2F8109949756D6C2813F86881 /* README.md */,
-				1398FE6BDF7030AEAEA6452EDB6FB0DB /* ZImageCropper.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4BD7454307A3480C727FBA96BF69CEEF /* Development Pods */,
+				7FCEFF83D6731F9BAC9887CCE42C3253 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				89B55391FF436BDBD020878552ED682F /* Products */,
 				B85053824568E3AF5344AA18D1114DB1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF8E6D19880ADC98758BD11329C458F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				786A52BD8EC8B4CEB006217C99A36535 /* LICENSE */,
+				1039E1B051335B75AA4BB6DDE5E29C0E /* README.md */,
+				E7368BAF57A5DACFE030CC3F78C274EE /* ZImageCropper.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -219,6 +208,20 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3E760F0DCABEBAE194103474E498D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE18C917ED364CB9D352D2698191B1B4 /* ZImageCropper.modulemap */,
+				F7397EB21C3DD2E7578325A8A5C41C26 /* ZImageCropper.xcconfig */,
+				EE957C01B03773324E01AA8511E889E8 /* ZImageCropper-dummy.m */,
+				7F3D0C3C5283CD8B934EC8292023861D /* ZImageCropper-Info.plist */,
+				5B7FD8FFB473AADB2EAC4CE9525D87FA /* ZImageCropper-prefix.pch */,
+				39F9005CB67C18AE09D00BC4243EC2D1 /* ZImageCropper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZImageCropper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +259,7 @@
 			buildConfigurationList = BC289081966204FAC6F862F4A66A3359 /* Build configuration list for PBXNativeTarget "ZImageCropper" */;
 			buildPhases = (
 				28EE6464F9E4B967BD5A8304F4744702 /* Headers */,
-				2BF75F0594A251278C502B624E3F657A /* Sources */,
+				46D903913B64ED53A2B782CE66C4FF14 /* Sources */,
 				19A80B4D13D40BB8D5A522975973A8EA /* Frameworks */,
 				F41F13EC37E48BBEE8BE9A5961039D5A /* Resources */,
 			);
@@ -360,12 +363,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BF75F0594A251278C502B624E3F657A /* Sources */ = {
+		46D903913B64ED53A2B782CE66C4FF14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68BEF85E50FF883DAF0E84DED1560F21 /* ReplaceMe.swift in Sources */,
-				29789A172A02B412F79CDDD200DFA77E /* ZImageCropper-dummy.m in Sources */,
+				AE93FCD34C01B65EA15753AF264240AA /* ZImageCropper-dummy.m in Sources */,
+				EE0A9F9726E49ACD8E20D35565131C9E /* ZImageCropper.swift in Sources */,
+				85755764AF28F0E03DA622EDFA428A98 /* ZImageCropperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +407,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		07283DBF8A8D43065982C4EF34399F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7397EB21C3DD2E7578325A8A5C41C26 /* ZImageCropper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZImageCropper/ZImageCropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZImageCropper/ZImageCropper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZImageCropper/ZImageCropper.modulemap";
+				PRODUCT_MODULE_NAME = ZImageCropper;
+				PRODUCT_NAME = ZImageCropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		42943BDAC6A01DF71EBCF50E2E9E17C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BCA6CE1BBF6797531365D16DE5D7CF0 /* Pods-ZImageCropper_Tests.debug.xcconfig */;
@@ -470,9 +505,9 @@
 			};
 			name = Release;
 		};
-		86D9F81F4800056B778BB23D34E34634 /* Debug */ = {
+		AAD543C6892A4ACEB8E88449E1CD3F83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73CDB159036B24A084E0EE0DBD3D069E /* ZImageCropper.xcconfig */;
+			baseConfigurationReference = F7397EB21C3DD2E7578325A8A5C41C26 /* ZImageCropper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -494,12 +529,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -632,38 +668,6 @@
 			};
 			name = Release;
 		};
-		DB7A84A264BDCC1E24D6A100B93856E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73CDB159036B24A084E0EE0DBD3D069E /* ZImageCropper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZImageCropper/ZImageCropper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZImageCropper/ZImageCropper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZImageCropper/ZImageCropper.modulemap";
-				PRODUCT_MODULE_NAME = ZImageCropper;
-				PRODUCT_NAME = ZImageCropper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -757,8 +761,8 @@
 		BC289081966204FAC6F862F4A66A3359 /* Build configuration list for PBXNativeTarget "ZImageCropper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86D9F81F4800056B778BB23D34E34634 /* Debug */,
-				DB7A84A264BDCC1E24D6A100B93856E6 /* Release */,
+				07283DBF8A8D43065982C4EF34399F46 /* Debug */,
+				AAD543C6892A4ACEB8E88449E1CD3F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
