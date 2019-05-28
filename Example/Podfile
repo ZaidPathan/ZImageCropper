@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'ZImageCropper_Example' do
+  pod 'ZImageCropper'
+end
