@@ -2,15 +2,15 @@ PODS:
   - ZImageCropper (0.1.0)
 
 DEPENDENCIES:
-  - ZImageCropper (from `../`)
+  - ZImageCropper
 
-EXTERNAL SOURCES:
-  ZImageCropper:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZImageCropper
 
 SPEC CHECKSUMS:
-  ZImageCropper: 8b9ad6d4aab0f52390da2d3b476c14e27424a315
+  ZImageCropper: 1a5518eea94f1ce903bbfebc860bfb023d27fc62
 
-PODFILE CHECKSUM: 50a7016449e8a8c080eb607313e20c2238142490
+PODFILE CHECKSUM: 1a5718212cf1d3a1911830e89bf53a241137d956
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.0

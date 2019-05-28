@@ -1,5 +1,4 @@
 import XCTest
-import ZImageCropper
 
 class Tests: XCTestCase {
     

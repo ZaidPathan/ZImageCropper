@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		05911702229D16960018641E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059116FA229D168C0018641E /* AppDelegate.swift */; };
+		05911703229D16990018641E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059116F9229D168C0018641E /* Assets.xcassets */; };
+		05911704229D169B0018641E /* NewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05911700229D168C0018641E /* NewImageViewController.swift */; };
+		05911705229D169D0018641E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05911701229D168C0018641E /* ViewController.swift */; };
+		05911706229D16A60018641E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059116FE229D168C0018641E /* Main.storyboard */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6AE19FDD81E2728C6181216C /* Pods_ZImageCropper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7FD18F3F04D834531FBAD8 /* Pods_ZImageCropper_Example.framework */; };
-		CA8201CB87F6D460317FAC3A /* Pods_ZImageCropper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9BA948158106E6E055E1AD /* Pods_ZImageCropper_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +27,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4BF8EA7D5FEFDACC7582EA9E /* Pods-ZImageCropper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZImageCropper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZImageCropper_Tests/Pods-ZImageCropper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		059116F9229D168C0018641E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		059116FA229D168C0018641E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		059116FD229D168C0018641E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		059116FF229D168C0018641E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		05911700229D168C0018641E /* NewImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewImageViewController.swift; sourceTree = "<group>"; };
+		05911701229D168C0018641E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ZImageCropper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZImageCropper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ZImageCropper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZImageCropper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7368C6A64861D561EB398A32 /* Pods-ZImageCropper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZImageCropper_Example.release.xcconfig"; path = "Target Support Files/Pods-ZImageCropper_Example/Pods-ZImageCropper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		82EA1376D4152C22728D3BB8 /* Pods-ZImageCropper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZImageCropper_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZImageCropper_Tests/Pods-ZImageCropper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9407E8BD6EE75BFA9C43D13F /* ZImageCropper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZImageCropper.podspec; path = ../ZImageCropper.podspec; sourceTree = "<group>"; };
-		9A7D9C8CCD8CF2DFCE257190 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C601B5A1A8655D34A6EA6468 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9407E8BD6EE75BFA9C43D13F /* ZImageCropper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZImageCropper.podspec; path = ../ZImageCropper.podspec; sourceTree = "<group>"; };
+		9A7D9C8CCD8CF2DFCE257190 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C601B5A1A8655D34A6EA6468 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CCDD080855BE5D06E2CE263C /* Pods-ZImageCropper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZImageCropper_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZImageCropper_Example/Pods-ZImageCropper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD7FD18F3F04D834531FBAD8 /* Pods_ZImageCropper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZImageCropper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE9BA948158106E6E055E1AD /* Pods_ZImageCropper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZImageCropper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +59,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA8201CB87F6D460317FAC3A /* Pods_ZImageCropper_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059116FB229D168C0018641E /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				059116FC229D168C0018641E /* LaunchScreen.storyboard */,
+				059116FE229D168C0018641E /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = ../../../../../ZImageCropper/Base.lproj;
+			sourceTree = "<group>";
+		};
 		24D451D677AA980156EFE2A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				CD7FD18F3F04D834531FBAD8 /* Pods_ZImageCropper_Example.framework */,
-				DE9BA948158106E6E055E1AD /* Pods_ZImageCropper_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,10 +88,7 @@
 			children = (
 				CCDD080855BE5D06E2CE263C /* Pods-ZImageCropper_Example.debug.xcconfig */,
 				7368C6A64861D561EB398A32 /* Pods-ZImageCropper_Example.release.xcconfig */,
-				4BF8EA7D5FEFDACC7582EA9E /* Pods-ZImageCropper_Tests.debug.xcconfig */,
-				82EA1376D4152C22728D3BB8 /* Pods-ZImageCropper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,11 +116,11 @@
 		607FACD21AFB9204008FA782 /* Example for ZImageCropper */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				059116FA229D168C0018641E /* AppDelegate.swift */,
+				059116F9229D168C0018641E /* Assets.xcassets */,
+				059116FB229D168C0018641E /* Base.lproj */,
+				05911700229D168C0018641E /* NewImageViewController.swift */,
+				05911701229D168C0018641E /* ViewController.swift */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for ZImageCropper";
@@ -186,7 +188,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ZImageCropper_Tests" */;
 			buildPhases = (
-				5F99CA8ED2316697B503B4E0 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +248,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				05911703229D16990018641E /* Assets.xcassets in Resources */,
+				05911706229D16A60018641E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,28 +263,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5F99CA8ED2316697B503B4E0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZImageCropper_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6ED48E87B8E1CF8C47091E64 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,15 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZImageCropper_Example/Pods-ZImageCropper_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ZImageCropper/ZImageCropper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZImageCropper.framework",
 			);
@@ -335,8 +310,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				05911705229D169D0018641E /* ViewController.swift in Sources */,
+				05911702229D16960018641E /* AppDelegate.swift in Sources */,
+				05911704229D169B0018641E /* NewImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,20 +335,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		059116FC229D168C0018641E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				059116FD229D168C0018641E /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		059116FE229D168C0018641E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				059116FF229D168C0018641E /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -509,8 +485,8 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BF8EA7D5FEFDACC7582EA9E /* Pods-ZImageCropper_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -531,8 +507,8 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82EA1376D4152C22728D3BB8 /* Pods-ZImageCropper_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
