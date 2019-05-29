@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		054C3ADD29AD92C958995AA01753ADAD /* ZImageCropper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZImageCropper.swift; path = ZImageCropper/Classes/ZImageCropper.swift; sourceTree = "<group>"; };
 		1174907AFA7291C7B4FCA96ACCE0033F /* Pods-ZImageCropper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZImageCropper_Example-dummy.m"; sourceTree = "<group>"; };
-		22A9CFC4738DF798BCE75D2A16A7E3E1 /* Pods_ZImageCropper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZImageCropper_Example.framework; path = "Pods-ZImageCropper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A9CFC4738DF798BCE75D2A16A7E3E1 /* Pods_ZImageCropper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZImageCropper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A11C1A973058BBA98E65A0B3198BBEF /* ZImageCropper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZImageCropper-Info.plist"; sourceTree = "<group>"; };
 		3B5038E72A48A3504C8C1EC9F155A0FF /* Pods-ZImageCropper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZImageCropper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4D28E57569F963A22E93BC15A2C0DA48 /* Pods-ZImageCropper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZImageCropper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -39,11 +39,11 @@
 		7B0CE4DA2CB44E85AC053ADD1D90D8FF /* ZImageCropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZImageCropper.modulemap; sourceTree = "<group>"; };
 		7F6885A1920B7F3AECF20B63AC84E245 /* Pods-ZImageCropper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZImageCropper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		80950661DD948A8CD321A2936CBD70F6 /* Pods-ZImageCropper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZImageCropper_Example.modulemap"; sourceTree = "<group>"; };
-		87A1685E564E56A209D72D255F71FB6F /* ZImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZImageCropper.framework; path = ZImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A1685E564E56A209D72D255F71FB6F /* ZImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE1B9705975C9E596B7071996228BE0 /* ZImageCropperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZImageCropperView.swift; path = ZImageCropper/Classes/ZImageCropperView.swift; sourceTree = "<group>"; };
 		989431348A00DC15E83CBEBA0D54457F /* Pods-ZImageCropper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZImageCropper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9C6509FFCD347037968937ED5AFFB17C /* Pods-ZImageCropper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZImageCropper_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF25B897D8303EC57E96A83B9F3BC87F /* ZImageCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZImageCropper-dummy.m"; sourceTree = "<group>"; };
 		F311F0EAEB2433262A3E28CD9472DFAD /* ZImageCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZImageCropper-prefix.pch"; sourceTree = "<group>"; };
@@ -134,7 +134,6 @@
 				8BE1B9705975C9E596B7071996228BE0 /* ZImageCropperView.swift */,
 				2672A7E7ED1AFCE3968F6D00E8412032 /* Support Files */,
 			);
-			name = ZImageCropper;
 			path = ZImageCropper;
 			sourceTree = "<group>";
 		};
@@ -232,13 +231,19 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					3DCCD7C951DE8BC095E4950F8F5E6093 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 5813784B810F37AEF864ECF3D84D637C /* Products */;
@@ -323,7 +328,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -355,7 +360,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -546,8 +551,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
