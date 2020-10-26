@@ -25,6 +25,20 @@ it, simply add the following line to your Podfile:
 pod 'ZImageCropper'
 ```
 
+### Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into Xcode and the Swift compiler.
+
+If you are using Xcode 11 or later:
+ 1. Click `File`
+ 2. `Swift Packages`
+ 3. `Add Package Dependency...`
+ 4. Specify the git URL for `ZImageCropper`.
+ 
+ ```swift
+ https://github.com/ZaidPathan/ZImageCropper
+ ```
+
 ### Manual
 Add ` ZImageCropper.swift` and ` ZImageCropperView.swift` files to your project.
 
